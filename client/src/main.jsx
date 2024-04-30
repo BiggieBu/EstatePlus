@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       authorizationParams={{
         redirect_uri: "https://estate-plus-lemon.vercel.app"
       }}
-      audience="http://localhost:8000"
+      audience="https://dev-ahv5e8w0q41x0xgm.us.auth0.com/api/v2/"
       scope="openid profile email"
     >
       <App />
