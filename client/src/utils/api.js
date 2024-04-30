@@ -166,7 +166,6 @@ export const getAllBookings = async (email, token) => {
 
 
 export const createResidency = async (data, token) => {
-  console.log(data)
   try {
     await api.post(
       `/residency/create`,
@@ -180,7 +179,6 @@ export const createResidency = async (data, token) => {
       }
     )
   } catch (error) {
-    toast.error("Something went wrong, Please try again");
     throw error
   }
 }
