@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain={AUTH0_DOMAIN}
       clientId={AUTH0_CLIENT_ID}
       authorizationParams={{
-        redirect_uri: "https://localhost:5173"
+        redirect_uri: "https://estate-plus-l6jyll71g-parv-mudgals-projects.vercel.app"
       }}
-      audience="http://localhost:8000"
+      audience="https://estate-plus-server-h8hqpduiu-parv-mudgals-projects.vercel.app"
       scope="openid profile email"
     >
       <App />
