@@ -3,13 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
-const AUTH0_DOMAIN = import.meta.env.VITE_AUTH0_DOMAIN
-const AUTH0_CLIENT_ID = import.meta.env.VITE_AUTH0_CLIENT_ID
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-      domain={AUTH0_DOMAIN}
-      clientId={AUTH0_CLIENT_ID}
+      domain="dev-ahv5e8w0q41x0xgm.us.auth0.com"
+      clientId="mZIXabECkBm4kPuHdrl1BCBt16O0JraR"
       authorizationParams={{
         redirect_uri: "https://estate-plus-lemon.vercel.app"
       }}
